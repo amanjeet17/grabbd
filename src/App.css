@@ -1,0 +1,190 @@
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 48%;
+    overflow: hidden;
+    /* background-image: url('./img/Grabbdpic.jpg'); */
+    min-height: 100%;
+}
+.fa{
+      padding-left: 10px;
+      font-size: 30px!important;
+}
+
+.logo {
+  -webkit-filter: grayscale(100%); /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  filter: grayscale(100%); /* FF 35+ */
+}
+a{
+  text-decoration: none !important;
+
+}
+
+.affix {
+     top: 0;
+     width: 100%;
+     z-index: 9999 !important;
+ }
+
+ .affix + .container-fluid {
+     padding-top: 70px;
+ }
+ .supertop{
+   height: 25px;
+background-color: black;
+ }
+.btn-grabbd{
+  background-color:#fff!important;
+  color: black!important;
+  margin: 10px;
+}
+
+.btn-grabbd:hover{
+  background-color:black!important;
+  color: #fff!important;
+}
+
+.rightside{
+    z-index: 1;
+    height: 100%;
+    background-color: #fff;
+    position: fixed!important;
+    margin-top: 70px;
+}
+.Topbar{
+  background-color: black;
+position: fixed;
+width: 100%;
+z-index: 100;
+color:white!important;
+
+}
+
+.restrauntImageDiv-1 {
+    max-height: 87pt;
+    height: 87pt;
+    margin-bottom: 8pt;
+    margin-right: 8pt;
+    padding: 0;
+    width: 100%;
+}
+
+.restrauntImageDiv-1, .restrauntImageDiv-2 {
+    margin-left: 0;
+    border-radius: 10pt;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+
+.restrauntImageDiv-0 {
+    max-height: 182pt;
+    height: 360px;
+    padding: 0;
+}
+
+.restrauntImage, .restrauntImageDiv-0, .restrauntImageDiv-1, .restrauntImageDiv-2 {
+    margin-left: 0;
+    border-radius: 10pt;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+
+.restraunt-name {
+    font-size: 20.8pt;
+    letter-spacing: -.2pt;
+    color: #333;
+    font-family: 'San Francisco-Bold','San Francisco Bold','San Francisco-bold',sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.comment{
+   word-wrap: break-word;
+}
+#game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.restaurant{
+      padding: 0 5%;
+}
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+.commentor{
+  margin-left: 15px;
+}
+
+.comment{
+      padding-left: 8%;
+}
+.try {
+    background-color: #ffa000;
+    border: 3px solid #ffa000;
+}
+.love {
+    background-color: #ff4081;
+    border: 3px solid #ff4081;
+}
+.like {
+    background-color: #30b6f4;
+    border: 3px solid #30b6f4;
+}
+.dislike {
+    background-color: #455a68;
+    border: 3px solid #455a68;
+}
+.iconStyle {
+    height: 1.9em;
+    width: 1.9em;
+    display: inline-block;
+    border-radius: 12px;
+}
+.curator-status{
+
+  padding: 10px 0px;
+}
+.status{
+  color: #333;
+font-size: 12pt;
+    letter-spacing: -.3pt;
+}
+.comment-status{
+      margin-top: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .btn-grabbd{
+    background-color:#fff!important;
+    color: black!important;
+        font-size: 9px!important;
+  }
+
+.pagination>li>a{
+  padding: 6px 10px!important;
+}
+.status{
+  font-size: 10pt;
+  color: #333;
+    letter-spacing: -.3pt;
+}
+}
